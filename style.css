@@ -24,7 +24,7 @@ h4 {
   margin-right: auto;
 }
 
-article {
+article, div {
   padding: 20px 0;
 }
 
