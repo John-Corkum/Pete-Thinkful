@@ -14,6 +14,7 @@ h3,
 h4 {
   font-family: "Playfair Display", Times, serif;
   text-align: center;
+ 
 }
  
  .img-circle {
@@ -28,23 +29,10 @@ article {
   padding: 15px 0;
 }
 
-article div {
-  text-align: center;
-  width: 100%;
-}
 
-p {
-line-height: 1.5;
-margin: auto;
+.center {
+  Margin: auto;
   text-align: left;
-  padding-left: 550px;
-}
-div p {
-text-align: left;
-  padding-left: 550px;
-}
-ul, ol {
-  padding-left: 600px;
 }
 
 
@@ -57,7 +45,6 @@ nav a {
   text-align: center;
   margin-left: 10px; 
 }
-
 
 img {
   width: 100%;
@@ -74,6 +61,8 @@ hr {
   border-top: none;
   border-left: none;
   border-right: none;
+  width:33%;
+  margin:0 auto;
 }
 body, header, footer {
   background-color: #eae2b7;
