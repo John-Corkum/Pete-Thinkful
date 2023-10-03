@@ -16,7 +16,7 @@ h4 {
   text-align: center;
 }
  
-#img-circle img {
+ .img-circle {
   border-radius: 50%;
   border: 2px solid #003049;
   display: block;
@@ -24,8 +24,8 @@ h4 {
   margin-right: auto;
 }
 
-article, div {
-  padding: 20px 0;
+article {
+  padding: 15px 0;
 }
 
 article div {
@@ -34,8 +34,19 @@ article div {
 }
 
 p {
-  line-height: 1.5;
+line-height: 1.5;
+margin: auto;
+  text-align: left;
+  padding-left: 550px;
 }
+div p {
+text-align: left;
+  padding-left: 550px;
+}
+ul, ol {
+  padding-left: 600px;
+}
+
 
 /* The div container constrains the content width within the main container to 600px */
 div {
@@ -58,13 +69,20 @@ img {
 }
 
 hr {
-  border: 1px solid black;
+  border: 3px solid black;
+  padding-bottom: 30px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 body, header, footer {
   background-color: #eae2b7;
 }
 header, footer {
 text-align: center;
+}
+footer p {
+  text-align: center;
 }
 
 a:link    { color: #d62828;  }
